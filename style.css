@@ -111,12 +111,7 @@ ul.menu > li:hover > ul.submenu {
 	width: 934px;
 	height: 553px;
 }
-/*.our-company__carousel{
-	height: 553px;
-	position: absolute;
-	top: 221px;
-	left: 0;*/
-.our-company__furniture{
+/*.our-company__furniture{
 	position: absolute;
 	left: 406px;
 	top: 221px;
@@ -151,6 +146,12 @@ ul.menu > li:hover > ul.submenu {
 }
 .arrow-right{
 	padding-left: 90px;
+}*/
+.main{
+	width: 934;
+	position: absolute;
+	left: 400px;
+	top: 220px;
 }
 .high-quality{
 	position: absolute;
@@ -159,6 +160,7 @@ ul.menu > li:hover > ul.submenu {
 	left: 100px;
 	top: 141px;
 	background: rgba(255, 255, 255, 0.72);
+	z-index: 1;
 }
 .high-quality__text{
 	padding: 60px;
@@ -349,7 +351,7 @@ ul.menu > li:hover > ul.submenu {
 	font-size: 40px;	
  }
  .tips-tricks{
- 	padding-bottom: 150px;
+ 	padding-bottom: 90px;
  }
 .tips-tricks__title{
 	width: 225px;
@@ -428,11 +430,11 @@ input[type='radio']:checked::after {
 }
 .gallery{
 	display: grid;
-	grid-template-columns: 204px 92px 1fr 1fr 178px 98px 1fr;
-	grid-template-rows: 80px 332px 65px 274px;
-	grid-column-gap: 16px;
-	grid-row-gap: 16px;
-	padding-bottom: 80px;
+	grid-template-columns: repeat(7, 1fr)
+	grid-template-rows: auto auto auto auto;
+	grid-column-gap: 2.4%;
+	grid-row-gap: 5%;
+	padding-bottom: 150px;
 }
 .gallery__1{
 	grid-column-start: 1;
@@ -547,3 +549,4 @@ a.q:hover{
 	border: none;
 }
 /*204px 28px 284px 327px 194px 112px 136px;
+204px 92px 1fr 1fr 178px 98px 1fr;
