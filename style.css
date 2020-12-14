@@ -9,6 +9,10 @@
 	width: 90%;
 	margin: 0 auto;
 }
+.company{
+	height: 774px;
+	width: 100vw;
+}
 .our-company{
 	display: flex;
 	height: 774px;
@@ -341,7 +345,7 @@ ul.menu > li:hover > ul.submenu {
  }
  .beautiful-rooms__text{
 	margin-left: 5%;
-	width: 380px;
+	width: 35%;
 	height: 96px;
 	padding-top: 200px;
 	margin-right: 200px;
@@ -478,6 +482,7 @@ input[type='radio']:checked::after {
 	grid-column-gap: 2.4%;
 	grid-row-gap: 5%;
 	padding-bottom: 150px;
+	justify-items: center;
 }
 .gallery__1{
 	grid-column-start: 1;
@@ -531,7 +536,7 @@ input[type='radio']:checked::after {
 	grid-column-start: 5;
 	grid-column-end: 6;
 	grid-row-start: 4;
-	grid-row-end:5 ;   
+	grid-row-end: 5;
 }
 .gallery__9{
 	grid-column-start: 6;
