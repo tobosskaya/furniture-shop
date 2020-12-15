@@ -10,43 +10,15 @@
 	margin: 0 auto;
 }
 .company{
-	height: 774px;
-	width: 100vw;
-}
-.our-company{
-	display: flex;
-	height: 774px;
 	position: relative;
+	height: 774px;
+	width: 100%;
+	background-image: linear-gradient(to right, #F9F1E7 68%, #FCF8F3 32%);
 }
-.our-company__to-look{
- 	width: 68%;
- 	background: #F9F1E7;
- 	display: flex;
- }
-.our-company__to-choose{
-	width: 32%;
-	background: #FCF8F3;
-}
-.our-company__menu{
+.company__menu{
 	padding-top: 45px;
-	padding-left: 5%;
-}
-.our-company__search{
-	width: 261px;
-}
-.choise{
-	padding-left: 20px;
-}
-.our-company__choise{
-	text-align: right;
-	padding-top: 45px;
-	padding-right: 5%;
-}
-.our-company__write{
-	width: 473px;
-	position: absolute;
-	top: 50px;
-	left: 40%;
+	display: flex;
+	justify-content: space-between;
 }
 input.with-mag{
     background-image: url("vector-images/magnifier.png");   
@@ -61,7 +33,7 @@ input.with-mag{
 	font-weight: bold;
 	font-size: 24px;
 }
-ul {
+ul{
     display: block;
     margin: 0;
     padding: 0;
@@ -95,10 +67,11 @@ ul.submenu {
     position: absolute;
     width: 120px;
     top: 37px;
-    left: 0;
+	left: 0;
+	z-index: 2;
 }
 ul.submenu > li {
-    display: block;
+	display: block;
 }
 ul.submenu > li > a {
     display: block;
@@ -112,57 +85,51 @@ ul.submenu > li > a:hover {
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
-.sofas{
+.main{
 	width: 934px;
-	height: 553px;
-}
-/*.our-company__furniture{
 	position: absolute;
-	left: 406px;
-	top: 221px;
+	left: 350px;
+	top: 104px;
 }
-.our-company__sofa{
-	width: 934px;
-	height: 553px;
+.carousel-item{
+	position: relative;
 }
-.our-company__sofa-label{
+.company__sofa-label{
 	position: absolute;
-	top: 370px;
+	top: 365px;
     left: 600px;
 	width: 294px;
 	height: 148px;
 	background: rgba(255, 255, 255, 0.72);
 }
-.our-company__sofa-text{
+.company__sofa-text{
 	padding: 24px;
 }
-.our-company__sofa-name{
+.company__sofa-name{
 	font-weight: 600;
 	font-size: 28px;
 }
-.our-company__sofa-description{
+.company__sofa-description{
 	font-weight: 500;
 	color: #616161;
 	padding-bottom: 10px;
 }
-.our-company__sofa-price{
+.company__sofa-price{
 	font-weight: 600;
 	font-size: 20px;
 }
 .arrow-right{
 	padding-left: 90px;
-}*/
-.main{
-	width: 934;
+}
+.carousel-indicators{
 	position: absolute;
-	left: 400px;
-	top: 220px;
+	top: -40px;
 }
 .high-quality{
 	position: absolute;
 	width: 494px;
 	height: 553px;
-	left: 100px;
+	left: 5%;
 	top: 141px;
 	background: rgba(255, 255, 255, 0.72);
 	z-index: 1;
@@ -189,20 +156,20 @@ ul.menu > li:hover > ul.submenu {
 	color: #FFF;
 	border: none;
 }
-.our-advantages__list{
-	margin: 100px auto;
+.advantages__list{
+	margin: 70px auto;
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
 }
-.text__advantage{
+.advantages__advantage{
 	font-weight: 600;
 	font-size: 18px;
 }
-.our-advantages__details{
+.advantages__details{
 	display: flex;
 }
-.text__explanation{
+.advantages__explanation{
 	font-weight: 500;
 	color: #898989;
 }
@@ -210,29 +177,28 @@ ul.menu > li:hover > ul.submenu {
 	margin-right: 20px;
 	width: 35px;
 }
-.our-products__title{
+.products__title{
 	font-weight: bold;
 	font-size: 40px;
-	color: #3A3A3A;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding: 40px;S
 }
-.our-products__wrapper{
+.products__wrapper{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px; 
 }
-.our-products__item{
+.products__item{
 	height: 446px;
 	width: 285px;
 	margin-bottom: 50px;
 	position: relative;
 }
-.our-products__image{
+.products__image{
 	position: relative;
 }
-.our-products__marker1{
+.products__marker1{
 	position: absolute;
 	top: 20px;
 	left: 200px;
@@ -246,7 +212,7 @@ ul.menu > li:hover > ul.submenu {
   	text-align: center; 
   	background-color: #E97171;
 }
-.our-products__marker2{
+.products__marker2{
 	position: absolute;
 	top: 20px;
 	left: 200px;
@@ -265,27 +231,27 @@ ul.menu > li:hover > ul.submenu {
 	height: 145px;
 	padding-left: 15px; 
 }
-.our-products__name{
+.products__name{
 	font-weight: 600;
 	font-size: 24px;
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
-.our-products__description{
+.products__description{
 	font-weight: 500;
 	padding-bottom: 15px;
 }
-.our-products__price{
+.products__price{
 	font-weight: 600;
 	font-size: 20px;
 	margin-right: 20px;
 	float: left;
 	padding-bottom: 24px;
 }
-.our-products__old-price{
+.products__old-price{
 	color: #B0B0B0;	
 }
-.our-products__unit-shadow{
+.products__unit-shadow{
     position: absolute;
     background: #3A3A3A;
     height: 446px;
@@ -297,10 +263,10 @@ ul.menu > li:hover > ul.submenu {
     opacity: 0;
     transition: 1s all ease-in;
 }
-.our-products__unit-shadow:hover{
+.products__unit-shadow:hover{
     opacity:0.72;
  }
- .our-products__add-to{
+ .products__add-to{
  	height: 48px;
 	width: 202px;
 	margin-left: 42px;
@@ -316,7 +282,7 @@ ul.menu > li:hover > ul.submenu {
  	padding-left: 50px;
  	border: none;
  }
- .our-products__share-like{
+ .products__share-like{
  	width: 196px;
  	margin-left: 46px;
  	display: flex;
@@ -350,7 +316,7 @@ ul.menu > li:hover > ul.submenu {
 	padding-top: 200px;
 	margin-right: 200px;
  }
-  .beautiful-rooms__title{
+ .beautiful-rooms__title{
 	font-weight: bold;
 	font-size: 40px;
 	width: 378px;  
@@ -423,11 +389,6 @@ ul.menu > li:hover > ul.submenu {
 .tips-tricks__wrapper{
 	display: flex;
 	justify-content: space-between;
-}
-.tips-tricks__choose{
-	text-align: center;
-	width: 200px;
-	margin: 0 auto;
 }
  input[type='radio'] {
   position: relative;
@@ -560,6 +521,7 @@ input[type='radio']:checked::after {
 .footer__title{
 	font-weight: bold;
 	font-size: 24px;
+	padding-bottom: 5px;
 }
 .footer__funiro{
 	width: 249px;
@@ -596,5 +558,3 @@ a.q:hover{
 	height: 30px;
 	border: none;
 }
-/*204px 28px 284px 327px 194px 112px 136px;
-204px 92px 1fr 1fr 178px 98px 1fr;
