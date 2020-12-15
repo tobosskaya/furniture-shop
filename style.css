@@ -85,6 +85,9 @@ ul.submenu > li > a:hover {
 ul.menu > li:hover > ul.submenu {
     display: block;
 }
+.choise{
+	margin-left: 15px;
+}
 .main{
 	width: 934px;
 	position: absolute;
@@ -140,30 +143,30 @@ ul.menu > li:hover > ul.submenu {
   box-shadow:0 0 0 .2rem #E89F71;
 }
 .circle-left{
- position: absolute;
- left: 780px!important;
- top: -630px!important;
+	position: absolute;
+	left: 780px!important;
+	top: -630px!important;
 }
 .cirle-right{
- position: absolute;
- top: -630px!important;
- left: 830px!important;
+	position: absolute;
+	top: -630px!important;
+	left: 830px!important;
 }
 .previous{
- width: 48px!important;
- height: 48px!important;
- background: #E89F71!important;
- -moz-border-radius: 24px;
- -webkit-border-radius: 24px;
- border-radius: 24px;
+	width: 48px!important;
+	height: 48px!important;
+	background: #E89F71!important;
+	-moz-border-radius: 24px;
+	-webkit-border-radius: 24px;
+	border-radius: 24px;
 }
 .next{
- width: 48px!important;
- height: 48px!important;
- background: #E89F71!important;
- -moz-border-radius: 24px;
- -webkit-border-radius: 24px;
- border-radius: 24px;
+	width: 48px!important;
+	height: 48px!important;
+	background: #E89F71!important;
+	-moz-border-radius: 24px;
+	-webkit-border-radius: 24px;
+	border-radius: 24px;
 }
 .high-quality{
 	position: absolute;
@@ -600,7 +603,16 @@ a.q:hover{
 }
 @media (max-width: 1200px){
 	.company__menu{
+		flex-wrap: wrap;
+	}
+	.company__write{
+		order: 1;
+		align-self: flex-start;
+		flex-basis: 60%;
+	}
+}
+@media (max-width: 800px){
+	.products__wrapper .tips-tricks__wrapper .footer__wrapper{
 		flex-direction: column;
-		justify-content: flex-start;
 	}
 }
