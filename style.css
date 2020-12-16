@@ -557,9 +557,12 @@ input[type='radio']:checked::after {
 .footer__wrapper{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-top: 60px;
 	border-top: 1px solid #D8D8D8;
+}
+.footer__column{
+	padding-bottom: 30px;
 }
 .footer__title{
 	font-weight: bold;
@@ -603,16 +606,112 @@ a.q:hover{
 }
 @media (max-width: 1200px){
 	.company__menu{
-		flex-wrap: wrap;
+	 flex-wrap: wrap;
 	}
 	.company__write{
-		order: 1;
-		align-self: flex-start;
-		flex-basis: 60%;
+	 order: 1;
+	 align-self: flex-start;
+	 flex-basis: 60%;
+	}
+	input.with-mag{
+	 line-height: 3em;
+	}
+	.high-quality{
+	 left: 1%;
+	 top: 250px;
+	}
+	.products__wrapper{
+	 flex-wrap: wrap;
+	 align-items: center;
 	}
 }
-@media (max-width: 800px){
-	.products__wrapper .tips-tricks__wrapper .footer__wrapper{
-		flex-direction: column;
+@media (max-width: 900px){
+	.circle-left{
+	top: -550px!important;
+	left: 650px!important;
 	}
+	.cirle-right{
+	top: -550px!important;
+	left: 700px!important;
+	}
+	.company__sofa-label{
+	position: absolute;
+	top: 300px;
+	   left: 500px;
+	}
+	.beautiful-rooms{
+	 display: block;
+	 height: 800px;
+	}
+	.beautiful-rooms__text{
+	 padding-top: 10px;
+	 margin-bottom: 120px;
+	}
+	.beautiful-rooms__gallery{
+	 margin-left: 20px;
+	}
+	.main{
+	 left: 0;
+	 width: 800px;
+	}
+	.high-quality{
+	 left: 1%;
+	 top: 250px;
+	 width: 481px;
+	 height: 520px;
+	} 
+	.tips-tricks__wrapper{
+	 flex-wrap: wrap;
+	}
+	.gallery{
+	 grid-auto-flow: column; 
+	 margin-bottom: 50px;
+	}
+	.gallery__1{
+	 grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.gallery__2{
+	 grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.gallery__3{
+	 grid-area: auto;
+	}
+	.gallery__4{
+	 grid-area: auto;
+	}
+	.gallery__5{
+	 grid-area: auto;
+	}
+	.gallery__6{
+	 grid-area: auto;
+	}
+	.gallery__7{
+	 grid-area: auto;
+	}
+	.gallery__8{
+	 grid-area: auto;
+	}
+	.gallery__9{
+	 grid-area: auto;
+	}
+	.gallery__10{
+	 grid-column: 1 / -1;
+	}
+	.gallery__subtitle{
+	 padding-left: 0;
+	}
+	.gallery__title{
+	 padding-left: 0;
+	}
+	.footer__wrapper{
+	 flex-wrap: wrap;
+	 align-items: center;
+	} 
 }
+   
